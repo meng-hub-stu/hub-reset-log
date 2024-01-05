@@ -35,7 +35,3 @@ mybatis-plus:
 pagehelper:
   helperDialect: mysql
   supportMethodsArguments: true
-logging:
-  level:
-    root: info
-  path: log/myapp.log
