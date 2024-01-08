@@ -76,6 +76,7 @@
                     <appender-ref ref="ERROR"/>
                     <appender-ref ref="Console" />
                 </Logger>
+
                 <Root level="${logLevel}">
                     <appender-ref ref="RollingRandomAccessFile"/>
                     <appender-ref ref="ERROR"/>
